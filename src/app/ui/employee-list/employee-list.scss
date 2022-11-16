@@ -9,8 +9,22 @@ ul {
   padding: 0;
 }
 
-li {
+.employees-images {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.employees {
   list-style: none;
   font-family: Arial, sans-serif;
   font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3px 3px;
 }
